@@ -13,7 +13,7 @@ class Warrior:
         self.health = health
         self.power = power
         self.name = name
-        
+    # Creating a status method 
     def status (self):
         return "%s has %d health and %d power." % (self.name, self.health, self.power)
 
